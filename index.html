@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="theservicebureauxpress is an independent tax-preparation application for guided 2025 individual return estimates." />
+    <meta name="theme-color" content="#16323a" />
+    <title>theservicebureauxpress TaxSLayer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316323a'/%3E%3Cpath d='M8 9h6l2 5 2-5h6l-5 7 5 7h-6l-2-5-2 5H8l5-7z' fill='%23f4efe4'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css?v=20261020f" />
+    <link rel="stylesheet" href="./responsive.css?v=20261020f" />
+    <link rel="stylesheet" href="./accessibility.css?v=20261020f" />
+  </head>
+  <body>
+    <div id="root">
+      <a class="skip-link" href="#main">Skip to content</a>
+      <header class="site-header">
+        <a class="brand" href="./index.html">theservicebureauxpress TaxSLayer</a>
+      </header>
+      <main id="main">
+        <section class="home-banner">
+          <div class="home-banner-grid">
+            <div class="hero-copy">
+              <p class="kicker">Tax year 2025</p>
+              <h1>Your return, set out in a straight line.</h1>
+              <p class="lede">Wages, deductions, credits, and a state estimate when this version supports it. Nothing on this page files a return.</p>
+            </div>
+            <img class="banner-mascot" src="./media-mascot.png?v=20261020e" alt="A teal bird holding a blank sheet of paper" />
+          </div>
+        </section>
+      </main>
+    </div>
+    <noscript>XpressTax needs JavaScript to run the filing workspace.</noscript>
+    <script type="module" src="./main.jsx"></script>
+    <script>
+      if (location.protocol === 'file:') {
+        var bundle = document.createElement('script')
+        bundle.src = './app.js?v=20261020e'
+        document.body.appendChild(bundle)
+      }
+    </script>
+  </body>
+</html>

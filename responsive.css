@@ -1,0 +1,21 @@
+@media (max-width: 900px) {
+  .split, .catalog li, .media-band, .home-banner-grid { grid-template-columns: 1fr; }
+  .price-row { grid-template-columns: 1fr 1fr; margin-top: 24px; }
+  .banner-photo { height: 260px; }
+  .media-band img { height: 240px; }
+  .app-shell { display: block; }
+  .rail { display: none; }
+  .rail.open { display: flex; position: sticky; top: 0; z-index: 2; }
+  .nav-toggle { display: inline-flex; background: var(--white); color: var(--ink); }
+  .nav { display: none; }
+  .nav.open { display: flex; flex-direction: column; align-items: flex-start; position: absolute; top: 64px; right: 16px; background: var(--white); padding: 16px; border-radius: var(--radius); box-shadow: var(--shadow); }
+  .site-header { position: relative; }
+  .hero { min-height: 0; padding: 28px 0 8px; }
+}
+
+@media (max-width: 640px) {
+  .row, .actions { align-items: stretch; }
+  .price-row { grid-template-columns: 1fr; }
+  .btn, button { width: 100%; }
+  .section { padding: 48px 0; }
+}

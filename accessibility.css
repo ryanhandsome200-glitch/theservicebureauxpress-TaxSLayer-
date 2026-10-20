@@ -1,0 +1,8 @@
+.skip-link { position: absolute; left: 8px; top: -40px; background: white; color: black; padding: 8px 12px; z-index: 5; }
+.skip-link:focus { top: 8px; }
+:focus-visible { outline: 3px solid var(--copper); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; transition: none !important; }
+}
